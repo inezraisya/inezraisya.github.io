@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro {
+    padding: 2rem;
+    background: #444;
+    color: #fff;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.event {
+    margin-bottom: 1.5rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    margin-bottom: 1rem;
+}
+
+.bar {
+    height: 1rem;
+    background: #4caf50;
+    border-radius: 5px;
+}
+
+.projects-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project-item {
+    flex: 1 1 calc(50% - 1rem);
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .project-item {
+        flex: 1 1 100%;
+    }
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    align-items: center;    /* Memusatkan elemen secara horizontal */
+    justify-content: center; /* Memusatkan elemen secara vertikal */
+    text-align: center;
+    gap: 20px;
+    min-height: 30vh;      /* Mengatur tinggi minimum kontainer agar penuh layar */
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;     /* Membuat foto berbentuk lingkaran */
+    object-fit: cover;      /* Memastikan foto proporsional */
+    border: 2px solid #333; /* Border hitam untuk memberi batas pada foto */
+}
+.proyeklayout {
+    width: 500px;
+    height: 300px;
+}
+.ukuran-foto {
+    width: 450px;
+    height: 400px; /* Ukuran gambar diatur secara tetap */
+}
+.ukuran-wordpress {
+    width: 400px;
+    height: 400px; /* Ukuran gambar diatur secara tetap */
+}
+.ukuran-figma {
+    width: 450px;
+    height: 380px; /* Ukuran gambar diatur secara tetap */
+}
+
