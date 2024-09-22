@@ -141,19 +141,19 @@ footer {
     border: 2px solid #333; /* Border hitam untuk memberi batas pada foto */
 }
 .proyeklayout {
-    width: 500px;
-    height: 300px;
+    width: 200px;
+    height: 150px;
 }
 .ukuran-foto {
-    width: 450px;
-    height: 400px; /* Ukuran gambar diatur secara tetap */
+    width: 200px;
+    height: 150px; /* Ukuran gambar diatur secara tetap */
 }
 .ukuran-wordpress {
-    width: 400px;
-    height: 400px; /* Ukuran gambar diatur secara tetap */
+    width: 200px;
+    height: 1500px; /* Ukuran gambar diatur secara tetap */
 }
 .ukuran-figma {
-    width: 450px;
-    height: 380px; /* Ukuran gambar diatur secara tetap */
+    width: 200px;
+    height: 150px; /* Ukuran gambar diatur secara tetap */
 }
 
